@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.clear {
+  clear: both;
+}
+
+h1 {
+  font-size: 2.8rem;
+}
+
+h2 {
+  font-size: 3.6rem;
+  padding: 5rem 0rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 2.8rem;
+}
+
+button {
+  font-size: 1.8rem;
+}
+
+nav {
+  background: rgb(136, 16, 52);
+  color: white;
+  padding: 1rem;
+  width: 100%;
+  position: fixed;
+}
+nav h1 {
+  float: left;
+}
+nav ul {
+  float: right;
+  list-style: none;
+}
+nav li {
+  float: left;
+  margin: 0rem 3rem;
+}
+
+.hero-section {
+  background-image: url("/bacc2.jpg");
+  height: 80rem;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  padding-top: 8rem;
+}
+.hero-section button {
+  margin-top: 4rem;
+  padding: 1rem 4rem;
+  border: none;
+  background: rgb(182, 41, 83);
+  color: white;
+  cursor: pointer;
+}
+.form-section {
+  text-align: center;
+}
+form {
+}
+form input,
+form label,
+form textarea {
+  display: block;
+  font-size: 2.4rem;
+}
+
+form input,
+form textarea {
+  margin: 2rem auto;
+  width: 50%;
+}
+form button {
+  margin-bottom: 10rem;
+  padding: 1rem 4rem;
+  border: none;
+  background: rgb(182, 41, 83);
+  color: white;
+  cursor: pointer;
+}
